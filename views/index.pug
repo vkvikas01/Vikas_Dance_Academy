@@ -1,0 +1,57 @@
+doctype html 
+html
+    head 
+        title Vikas Dance Academy
+        style
+         include ../static/style.css 
+    body 
+        nav#navbar.top 
+            ul
+                div#logo
+                    img(src="/static/images/move3.png") 
+                    p VDA
+                li #[a(href="/") Home]       
+                li #[a(href="/") About]       
+                li #[a(href="/") Contact]     
+                li #[a(href="/") Services]    
+                li #[a(href="/") Class info]    
+        section#intro 
+            div Welcome to vikas dance Academy
+            div.small Dance is best Exercise
+        section#mission 
+            h1 Our Mission
+            div.card
+                h3 Dance perfection
+                div.cardbox
+                   div.cardimg
+                     img(src="/static/images/move1.gif")
+                   div.cardcontent
+                     p Nobody cares if you can’t dance well. Just get up and dance. Great dancers are great because of their passion.    
+            div.card
+                h3 Dance the way you like
+                div.cardbox
+                   div.cardimg
+                     img(src="/static/images/move2.png")
+                   div.cardcontent
+                     p Hand in hand, on the edge of the sand, they danced by the light of the moon 
+            div.card
+                h3 Expert teaching
+                div.cardbox
+                   div.cardimg
+                     img(src="/static/images/move4.png")
+                   div.cardcontent
+                     p Dancing is a perpendicular expression of a horizontal desire. 
+                
+        section#sponsors 
+            h1 Our sponsors
+            div#sponsorsimg
+                img(src="/static/images/logo1.png", alt=" sponsors-images" Class="spimg")
+                img(src="/static/images/logo2.jpg", alt=" sponsors-images" Class="spimg")
+                img(src="/static/images/logo3.png", alt=" sponsors-images" Class="spimg")
+                img(src="/static/images/logo4.jpg", alt=" sponsors-images" Class="spimg")
+        footer#footer 
+            | copyright ©  2021 VikasDanceAcademy | All Right Resvered
+            
+            
+        script 
+         include  ../static/script.js 
